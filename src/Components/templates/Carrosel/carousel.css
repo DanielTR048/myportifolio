@@ -74,6 +74,7 @@
 .carousel-image-text-container {
     display: flex;
     align-items: center;
+    flex-direction: row;
 }
 
 .carousel-card-image {
@@ -92,4 +93,23 @@
     padding: 10%;
 }
 
+@media screen and (max-width: 600px){
+    .carousel-image-text-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .carousel-card-image{
+        max-width: 100%;
+    }
+    .carousel-card-text{
+        font-size: 1.55rem;
+        width: 90vw;
+        position: relative;
+        right: 3%;
+        
+    }
+    .carousel-next-button{
+        right: 5%;
+    }
+}
 

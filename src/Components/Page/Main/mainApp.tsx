@@ -8,10 +8,10 @@ import { useState } from 'react';
 
 
 const projectList: Project[] = [
-  { id: "1", name: 'Projeto Hiper+ um e-commerce de hipermeabilizantes, montado na loja integrada, um projeto freelance, feito por mim e um companheiro do ramo de marketing, o projeto em si foi simples, o mais complicado foi design e os ajustes dos produtos, que eu acabei utilizando uma IA para me auxiliar no processo - www.lojaimpermais.com.br', image: './public/logohipermais.svg' },
-  { id: "2", name: 'Projeto Pong feito em C#, um game montado usando a biblioteca OpenTK, meu primeiro jogo já programado, é bem arcaico o sistema, bem simples, mas é foi muito prazeroso faze-lo e jogar o resultado final foi como conseguir andar a primeira vez de bicicleta', image: './public/pong.svg' },
-  { id: "3", name: 'Meu Projeto de Portifolio com o auxilio de um companheiro programador desenvolvi a primeira versão da minha vida usando ReactTS com a biblioteca VITE, mostrando o que tenho a oferecer como programador, não só isso o site contém imagens totalmente feitas por IA', image: './public/imageportifolio.svg' },
-  { id: "4", name: 'Um Projeto em equipe E-ponto um projeto usando reactTS, esse foi mais que um projeto para mim, eu comecei ele para estudar e simplesmente perguntei quem queria embarcar comigo nessa jornada, muitos entraram e pularam do barco, mas nada tira o tanto que aprendi nesse tempo com o projeto e como lidar com as pessoas, o projeto ainda está em andamento', image: './public/imageponto.svg' },
+  { id: "1", name: 'Projeto Hiper+ um e-commerce de hipermeabilizantes, montado na loja integrada, um projeto freelance, feito por mim e um companheiro do ramo de marketing, o projeto em si foi simples, o mais complicado foi design e os ajustes dos produtos, que eu acabei utilizando uma IA para me auxiliar no processo - www.lojaimpermais.com.br', image: './logohipermais.svg' },
+  { id: "2", name: 'Projeto Pong feito em C#, um game montado usando a biblioteca OpenTK, meu primeiro jogo já programado, é bem arcaico o sistema, bem simples, mas é foi muito prazeroso faze-lo e jogar o resultado final foi como conseguir andar a primeira vez de bicicleta', image: './pong.svg' },
+  { id: "3", name: 'Meu Projeto de Portifolio com o auxilio de um companheiro programador desenvolvi a primeira versão da minha vida usando ReactTS com a biblioteca VITE, mostrando o que tenho a oferecer como programador, não só isso o site contém imagens totalmente feitas por IA', image: './imageportifolio.svg' },
+  { id: "4", name: 'Um Projeto em equipe E-ponto um projeto usando reactTS, esse foi mais que um projeto para mim, eu comecei ele para estudar e simplesmente perguntei quem queria embarcar comigo nessa jornada, muitos entraram e pularam do barco, mas nada tira o tanto que aprendi nesse tempo com o projeto e como lidar com as pessoas, o projeto ainda está em andamento', image: './imageponto.svg' },
 ];
 
 

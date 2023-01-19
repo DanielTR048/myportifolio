@@ -7,7 +7,6 @@ mark{
     background-color: lightpink;
 }
 .container-footer{
-
     display: flex;
     flex-direction: row;
     width:auto;
@@ -131,4 +130,155 @@ mark{
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+
+.resolution-daniel{
+    width: auto;
+    height: 22.2vh;
+}
+
+.resolution-bruce{
+    width: auto;
+    height: 22.2vh;
+}
+
+@media screen and (max-width: 600px){
+.container-footer{
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-footer-tittle{
+    width: 70vw;
+    font-size: 3rem;
+    text-align: center;
+    position: relative;
+    right: 40%;
+}
+
+.text-footer{
+    width: 92vw;
+    font-size: 1.8rem;
+    text-align: center;
+    text-align: center;
+    position: relative;
+    right: 70%;
+}
+
+.colaboradores-title{
+    padding-top: 15%;
+    font-size: 3rem;
+    position: relative;
+    right: 70%;
+}
+
+.daniel h2{
+    font-size: 2.5rem;
+}
+.bruce h2 {
+    font-size: 2.5rem;
+}
+.resolution-daniel{
+    height: 21vh;
+}
+.resolution-bruce{
+    height: 21vh;
+}
+
+.colaboradores .participantes{
+    position: relative;
+    top: 1%;
+    right: 148%;
+}
+
+.daniel-icons{
+    gap: 0;
+}
+
+#whats-daniel{
+    width: auto;
+    height: 5vh;
+    padding-left: 0%;
+    position: relative;
+    right: 70%;
+}
+
+#whats-bruce{
+    width: auto;
+    height: 5vh;
+    padding-left: 0%;
+    position: relative;
+    right: 70%;
+}
+
+#git-daniel{
+    width: auto;
+    height: 5vh;
+    padding-right: 0%;
+    position: relative;
+    left: 10%;
+}
+
+#git-bruce{
+    width: auto;
+    height: 5vh;
+    padding-right: 0%;
+    position: relative;
+    left: 10%;
+}
+
+.text-footer-right{
+    font-size: 3rem;
+    margin-top: 10%;
+    top: 40%;
+    position: relative;
+    right: 57%;
+}
+
+#whats{
+    width: auto;
+    height: 10vh;
+    position: relative;
+    margin-top: 20%;
+    right: 155%;
+}
+
+#git{
+    width: auto;
+    height: 10vh;
+    position: relative;
+    right: 115%;
+}
+
+#insta{
+    width: auto;
+    height: 10vh;
+    position: relative;
+    right: 145%;
+}
+
+#whats-text{
+    position: relative;
+    right: 45%;
+    font-size: 2.2rem;
+    top: 7%;
+}
+
+#insta-text{
+    position: relative;
+    right: 45%;
+    font-size: 2.2rem;
+}
+
+#git-text{
+    position: relative;
+    right: 45%;
+    font-size: 2.2rem;
+}
+
+.contatos{
+    gap: 10%;
+
+}
+
 }

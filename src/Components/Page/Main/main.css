@@ -245,3 +245,30 @@ main{
     height: 90%;
     pointer-events: none;
 }
+
+@media screen and (max-width: 600px) {
+    .img{
+        width: 100vw;
+        top: 30%;
+        opacity: 0.2;
+        position: absolute;
+        right: 10%;
+    }
+
+    .main01 .left-side{
+        width: auto;
+        position: relative;
+    }
+    .left-side h1{
+        font-size: 13vw;
+        left: 1%;
+        color: black;
+    }
+
+    .left-side p{
+        font-size: 5vw;
+        color: black;
+        -webkit-text-stroke-width: 0.9px;
+        -webkit-text-stroke-color: #9E00FF;
+    }
+}

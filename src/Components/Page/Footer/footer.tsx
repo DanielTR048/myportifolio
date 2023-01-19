@@ -19,20 +19,20 @@ function FooterApp() {
           <div className="participantes">
             <div className="daniel">
               <h2>Daniel</h2>
-              <img src="../public/danielviking.svg" alt="" />
+              <img className='resolution-daniel' src="./danielviking.svg" alt="" />
               <h2>Web developer</h2>
               <div className="daniel-icons">
-                <a href="https://wa.me/14988197311"><img id='whats-daniel' className='img-whats' src="./public/whats.svg" alt="" /></a>
-                <a href="https://github.com/DanielTR048"><img id='git-daniel' className='img-git' src="./public/git.svg" alt=""/></a>
+                <a href="https://wa.me/14988197311"><img id='whats-daniel' className='img-whats' src="./whats.svg" alt="" /></a>
+                <a href="https://github.com/DanielTR048"><img id='git-daniel' className='img-git' src="./git.svg" alt=""/></a>
               </div>
             </div>
             <div className="bruce">
               <h2>Bruce</h2>
-              <img src="../public/molde.svg" alt="" />
+              <img className='resolution-bruce' src="./molde.svg" alt="" />
               <h2>Web developer</h2>
               <div className='bruce-icons'>
-                <a href="https://wa.me/9992007523"><img id='whats-bruce' className='img-whats' src="./public/whats.svg" alt="" /></a>
-                <a href="https://github.com/Bruc3W"><img id='git-bruce' className='img-git' src="./public/git.svg" alt=""/></a>
+                <a href="https://wa.me/9992007523"><img id='whats-bruce' className='img-whats' src="./whats.svg" alt="" /></a>
+                <a href="https://github.com/Bruc3W"><img id='git-bruce' className='img-git' src="./git.svg" alt=""/></a>
               </div>  
             </div>
           </div>
@@ -44,16 +44,16 @@ function FooterApp() {
           </div>
     
           <div className="contatos">
-            <a href="https://wa.me/14988197311"><img id='whats' className='img-whats' src="./public/whats.svg" alt="" /></a>
-            <h2>Whatsapp</h2>
+            <a href="https://wa.me/14988197311"><img id='whats' className='img-whats' src="./whats.svg" alt="" /></a>
+            <h2 id='whats-text'>Whatsapp</h2>
           </div>
           <div className="contatos">
-            <a href="https://www.instagram.com/programadorweb77/?theme=dark"><img id='insta' className='img-insta' src="./public/insta.svg" alt="" /></a>
-            <h2>Instagram</h2>
+            <a href="https://www.instagram.com/programadorweb77/?theme=dark"><img id='insta' className='img-insta' src="./insta.svg" alt="" /></a>
+            <h2 id='insta-text'>Instagram</h2>
           </div>
           <div className="contatos">
-            <a href="https://github.com/DanielTR048"><img id='git' className='img-git' src="./public/git.svg" alt=""/></a>
-            <h2>Github</h2>
+            <a href="https://github.com/DanielTR048"><img id='git' className='img-git' src="./git.svg" alt=""/></a>
+            <h2 id='git-text'>Github</h2>
           </div>
 
         </div>
