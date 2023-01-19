@@ -51,7 +51,7 @@ export default function MainApp() {
       </div>
       </div>
       <div className="right-side">
-        <img className = 'img' src="./public/raposa 00 1.svg" alt="" />
+        <img className = 'img' src="./raposa 00 1.svg" alt="" />
       </div>
       </section>
       
