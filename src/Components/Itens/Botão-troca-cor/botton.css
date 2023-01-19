@@ -1,0 +1,27 @@
+.ios-switch {
+    width: 50px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: gray;
+    position: relative;
+    cursor: pointer;
+}
+
+.ios-switch.on {
+    background-color: #4cd964;
+}
+
+.ios-switch-button {
+    width: 22px;
+    height: 22px;
+    border-radius: 11px;
+    background-color: white;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    transition: all 0.2s ease-in-out;
+}
+
+.ios-switch.on .ios-switch-button {
+    left: calc(100% - 26px);
+}

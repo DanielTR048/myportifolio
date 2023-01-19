@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    scroll-behavior: smooth;
+    transition: all 1s ease-in-out;
+}
+
+.carousel-card {
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    border-radius: 10px;
+    z-index: 0;
+}
+
+.carousel-card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+}
+
+.carousel-card-image {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+}
+
+.carousel-prev-button, .carousel-next-button {
+    position: absolute;
+    top: 50%;
+}
+
+.carousel-prev-button:hover, .carousel-next-button:hover {
+    background-color: rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+
+.carousel-prev-button {
+    left: 0;
+    background-color: transparent;
+    width: 5px;
+    height: 5px;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid black;
+    transform: rotate(270deg);
+    z-index: 1;
+}
+
+.carousel-next-button {
+    right: 0;
+    background-color: transparent;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid black;
+    transform: rotate(90deg);
+ 
+}
+
+.carousel-image-text-container {
+    display: flex;
+    align-items: center;
+}
+
+.carousel-card-image {
+    max-width: 40%;
+    max-height: 100%;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.carousel-card-text {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    flex: 1;
+    font-family: 'Poppins';
+    padding: 10%;
+}
+
+

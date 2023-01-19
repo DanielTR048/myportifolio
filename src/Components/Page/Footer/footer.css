@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+
+footer{
+    font-family: 'Poppins', sans-serif;
+}
+mark{
+    background-color: lightpink;
+}
+.container-footer{
+
+    display: flex;
+    flex-direction: row;
+    width:auto;
+    height: 40vh;
+}
+
+.colaboradores{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 3%;
+    padding-left: 1%;
+    width: 25%;
+}
+
+.colaboradores-title{
+    font-size: 1.5vw;
+    padding-left: 8.5%;
+}
+
+.participantes{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    gap: 2%;
+}
+
+
+
+.text{
+    width: 40%;
+    margin-left: 2%;
+}
+
+.text-footer{
+    font-size: 1.27vw;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.text-footer-tittle{
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+.text-footer-right{
+    font-size: 1.5vw;
+    padding-left: 15%;
+}
+
+.contatos-father{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    gap: 4%;
+}
+
+#whats{
+    width: 7vw;
+    height: 7vh;
+}
+#insta{
+    width: 7vw;
+    height: 7vh;
+}
+#git{
+    width: 7vw;
+    height: 7vh;
+}
+
+.bruce-icons{
+    display: flex;
+    flex-direction: row;
+    gap: -10px;
+}
+
+#whats-bruce{
+    width: 5vw;
+    height: 5vh;
+    padding-left: 20%;
+}
+
+#git-bruce{
+    width: 5vw;
+    height: 5vh;
+    padding-right: 20%;
+}
+
+.bruce{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.daniel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 5%;
+}
+
+.daniel-icons{
+    display: flex;
+    flex-direction: row;
+    gap: -10px;
+}
+
+#whats-daniel{
+    width: 5vw;
+    height: 5vh;
+    padding-left: 20%;
+}
+
+#git-daniel{
+    width: 5vw;
+    height: 5vh;
+    padding-right: 20%;
+}
+
+.contatos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
