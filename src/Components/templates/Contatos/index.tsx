@@ -26,7 +26,7 @@ function Contatos() {
                 <a className='icon-linkedin' href="https://www.linkedin.com/in/daniel-rosa-a01644215"><img className='img-linkedin' src="./linkedin.svg" alt="" /></a>
             </section>
             <section className='line-4'>
-                <a className='icon-email' href=""><img className='img-email' src="./mail.svg" alt="" /></a>
+                <a className='icon-email' href=""><img className='img-email' src="./email.svg" alt="" /></a>
                 <h4 className='text-email'>danieltobiasrosa@hotmail.com</h4>
             </section>
 
