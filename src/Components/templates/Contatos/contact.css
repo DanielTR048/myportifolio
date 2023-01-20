@@ -124,8 +124,8 @@ h4:hover{
 
 .img-post-office{
     position: absolute;
-    margin-left: 64.06%;
-    margin-top: 14.5%;
+    right: 0;
+    bottom: 0;
     width: 18vw;
 }
 

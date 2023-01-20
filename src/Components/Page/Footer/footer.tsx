@@ -39,7 +39,7 @@ function FooterApp() {
         </div>
         <div className="contatos-father">
 
-          <div className="contatos">
+        <div className="contatos">
             <h2 className='text-footer-right'>Contatos:</h2>
           </div>
     
@@ -54,7 +54,7 @@ function FooterApp() {
           <div className="contatos">
             <a href="https://github.com/DanielTR048"><img id='git' className='img-git' src="./git.svg" alt=""/></a>
             <h2 id='git-text'>Github</h2>
-          </div>
+  </div>
 
         </div>
       </div>
