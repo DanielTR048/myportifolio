@@ -212,19 +212,6 @@ main{
     display: flex;
 }
 
-/*
-.carrossel{
-    margin: 0 auto;
-    border: 3px solid black;
-    width: 100%;
-    min-width: 900px;
-    display: flex;
-    justify-content: center;
-    color: white;
-    overflow: hidden;
-}
-*/
-
 .itens {
     min-height: 200px;
     min-width: 400px;
