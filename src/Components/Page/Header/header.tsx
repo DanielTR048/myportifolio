@@ -125,12 +125,11 @@ const ApagarHeader = styled.div`
         </MenuCelular>
 
         <Navbar key={'xl'} bg="light" expand={'xl'} className="mb-3">
-        
           <Container fluid>
             <Nav>
               <Link to="/">
               <img
-              src="./homemoderno.svg"
+              src="./homecasa.svg"
               className="profile"
               alt="Portifolio avatar logo"
             />
@@ -160,14 +159,3 @@ const ApagarHeader = styled.div`
 }
 
 export default HeaderApp
-
-
-{/* <nav className='background-header'>
-<img className='profile' src="./public/Astronauta.png" alt="" />
-<div className='buttons'>
-<button className='button-header'>Trabalhos</button>
-<button className='button-header'>Sobre</button>
-<button className='button-header'>Futuro</button>
-<button className='button-header'>Contatos</button>
-</div>
-</nav> */}

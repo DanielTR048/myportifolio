@@ -27,6 +27,7 @@ main{
 
 .main01 {
     display: flex;
+    padding-left: 2.5%;
 }
 
 
@@ -59,14 +60,16 @@ main{
     font-size: 25px;
     font-family: 'Poppins';
     font-weight: 400;
-    -webkit-text-stroke-width: 0.5px;
-    -webkit-text-stroke-color: #9E00FF;
+    color: purple;
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: black;
     text-align: center;
-
+    text-shadow: 0.01em 0.1em 0.2em grey
 }
 
 .button-changecolor{
     position: absolute;
+    left: 1%;
 }
 
 :root{
@@ -267,10 +270,12 @@ main{
 
     .left-side p{
         font-size: 5vw;
+        text-shadow: 0.1em 0.1em 0.2em black;
         color: black;
         -webkit-text-stroke-width: 0.9px;
         -webkit-text-stroke-color: #9E00FF;
     }
+
 }
 
 @media screen and (max-width: 1020px){
