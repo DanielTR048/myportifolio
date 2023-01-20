@@ -130,7 +130,7 @@ const ApagarHeader = styled.div`
             <Nav>
               <Link to="/">
               <img
-              src="./Astronauta.svg"
+              src="./homemoderno.svg"
               className="profile"
               alt="Portifolio avatar logo"
             />
