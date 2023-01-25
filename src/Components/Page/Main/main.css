@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,400;0,500;0,700;0,800;1,100;1,400;1,500;1,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Fredoka:wght@300;400;500;600;700&family=IM+Fell+English+SC&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500&family=Roboto:wght@300;400;500&display=swap');
 
 main{
     box-sizing: border-box;
@@ -38,9 +39,9 @@ main{
 .left-side h1{
     display: flex;
     margin-top: 50px;
-    font-size: 5vw;
+    font-size: 6vw;
     color: purple;
-    font-family: 'Poppins';
+    font-family: 'Roboto-mono', sans-serif;
     font-weight: 700;
     transform: rotate(var(--rota-rotate));
     -webkit-text-stroke-width: 1.7px;
@@ -73,9 +74,9 @@ mark{
     font-family: 'Poppins';
     font-size: 40px;
     font-weight: 600;
-    color: white;
+    color: purple;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: purple;
+    -webkit-text-stroke-color: white;
     text-shadow: 0.01em 0.1em 0.2em grey
 }
 
@@ -85,7 +86,7 @@ mark{
     font-weight: 600;
     color: purple;
     -webkit-text-stroke-width: 0.2px;
-    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-color: white;
     text-shadow: 0.01em 0.1em 0.2em grey
 }
 
@@ -157,15 +158,6 @@ mark{
 }
 
 .principal p{
-  font-family: 'Barlow condensed';
-}
-
-.principal h1:hover{
-    transform: rotate(0deg);
-}
-
-
-.principal p{
     margin-top: 20px;
     color: white;
     font-size: 25px;
@@ -204,6 +196,7 @@ mark{
 .M{
     position: relative;
     word-break: break-all;
+    margin-right: 5%;
 }
 
 .V{
@@ -214,7 +207,6 @@ mark{
 .I{
     position: relative;
     word-break: break-all;
-
     top: var(--topo-top);
 }
 
@@ -272,15 +264,23 @@ mark{
         position: relative;
     }
     .left-side h1{
-        font-size: 13vw;
+        font-size: 13.5vw;
         left: 1%;
-        color: black;
+        color: purple;
+    }
+
+    .main-tittle{
+        font-size: 7vw;
+    }
+
+    .main-tittle-2{
+        font-size: 7vw;
     }
 
 
 
     .main-tittle{
-        margin-bottom: 10%;
+        margin-bottom: 5%;
     }
 
     mark{
@@ -294,10 +294,11 @@ mark{
     .left-side p{
         font-size: 5vw;
         text-shadow: 0.1em 0.1em 0.2em black;
-        color: black;
-        -webkit-text-stroke-width: 0.9px;
-        -webkit-text-stroke-color: #9E00FF;
+        color: purple;
+        -webkit-text-stroke-width: 0.45px;
+        -webkit-text-stroke-color: black;
     }
+
 
 }
 
