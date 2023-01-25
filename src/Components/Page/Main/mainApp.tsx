@@ -38,13 +38,14 @@ export default function MainApp() {
         <h1 className='O'>O</h1>
         </div>
         
+        <h2 className='main-tittle'>Sou um desenvolvedor <mark className='main-tittle-2'> Front-end </mark> </h2>
       <p className='mytext'>
-        Sou um desenvolvedor Front-end adepto a ReactTS, 
+        adepto a <mark className='mytext'> ReactTS </mark>, 
         formado em técnico de desenvolvimento web e certificação em Azure Fundamentals.
-        Além de ser programador, possuo interesse em inteligência artificial, marketing, e design.
+        Além de ser programador, possuo interesse em <mark className='mytext'> inteligência artificial </mark>, marketing, e design.
         Amo jogos de estratégia como xadrez, sinto prazer em cozinhar.
         Minha meta de vida é sempre continuar 
-        aprendendo e usar esses conhecimentos para impactar positivamente a sociedade.
+        aprendendo e usar esses conhecimentos para <mark className='mytext'>impactar positivamente</mark> a sociedade.
       </p>
       <div className='button-changecolor'>
       <Button colors={['lightyellow', 'white']} value={isOn} onChange={handleChange}/>
