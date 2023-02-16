@@ -19,14 +19,11 @@ function About() {
 
     const AboutCurri = styled.div`
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
-        position: absolute;
-        z-index: 99;
-        top: 2%;
         
         .curriculum{
         position: relative;
-        top: 20vh;
-        left: 55%;
+        top: 7vh;
+        left: 26%;
         width: 45vw;
         height: 150vh;
         z-index: 100;
@@ -237,8 +234,8 @@ function About() {
         .title-page-about-box{
             width: 30vw;
             position: relative;
-            top: 17.5vh;
-            left: 72%;
+            top: 2vh;
+            left: 33%;
             text-align: center;
             background-color: #F1A20B;
             border-radius: 7px;
