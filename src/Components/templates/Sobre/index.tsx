@@ -36,7 +36,6 @@ function About() {
         display: flex;
         flex-direction: column;
         width: 60%;
-        
         }
 
         .curriculum-right{
@@ -159,7 +158,7 @@ function About() {
 
         #img-top{
             width: 5vw;
-            height: 5vw;
+            height: 5vh;
         }
 
         h6{
@@ -249,6 +248,90 @@ function About() {
             font-size: 4.3vh;
         }
         
+        @media screen and (max-width: 600px){
+            .title-page-about-box{
+                width: 70vw;
+                left: 15%;
+            }
+            .curriculum{
+                flex-direction: column;
+            }
+            .curriculum-left{
+                width: auto;
+            }
+
+            .curriculum-right{
+                width: auto;
+            }            
+            .curriculum-title{
+                position: relative;
+                right: 30%;
+            }
+            #img-top{
+                width: 40vw;
+                height: 20vh;
+            }
+
+            .box-tittle-text{
+                padding-top: 13%;
+            }
+
+            .curriculum-content-profile{
+                position: relative;
+                top: 5%;
+                right: 32%;
+                width: 80vw;
+            }
+
+            .curriculum-content-experience{
+                position: relative;
+                top: 10%;
+                right: 32%;
+                width: 80vw;
+            }
+
+            .curriculum-content-Education{
+                position: relative;
+                top: 12%;
+                right: 32%;
+                width: 80vw;
+            }
+
+            .curriculum-details{
+                position: relative;
+                top: 4%;
+                right: 32%;
+                width: 80vw;
+            }
+
+            .curriculum-social-links{
+                position: relative;
+                top: 8%;
+                right: 32%;
+                width: 80vw;
+            }
+
+            .curriculum-hobbies{
+                position: relative;
+                top: 9%;
+                right: 32%;
+                width: 80vw;
+            }
+
+            .curriculum-languages{
+                position: relative;
+                top: 15.5%;
+                right: 32%;
+                width: 80vw;
+            }
+
+            .curriculum-skills{
+                position: relative;
+                top: 20%;
+                right: 32%;
+                width: 80vw;
+            }
+        }
     `
     return (
         <>
