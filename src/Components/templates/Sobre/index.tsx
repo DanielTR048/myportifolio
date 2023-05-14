@@ -158,7 +158,7 @@ function About() {
 
         #img-top{
             width: 5vw;
-            height: 5vh;
+            height: 5vw;
         }
 
         h6{
